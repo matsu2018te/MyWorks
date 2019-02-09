@@ -55,7 +55,26 @@ body {
 
 .about {
   height: 100vh;
+  padding: 80px 30px;
   background-color: #ffffff;
+  color: #333;
+}
+
+.about-text {
+  width: 600px;
+  margin: 30px auto;
+  line-height: 2.5;
+  text-align: left;
+}
+
+.heading {
+  display:inline-block;
+  position: relative;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  border-bottom: double 4px #999;
 }
 
 .works {
